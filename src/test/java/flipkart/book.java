@@ -28,6 +28,8 @@ public class book {
 	WebElement book=driver.findElement(By.xpath("//a[@class='_1BJVlg _11MZbx' and text()='Books']"));
 	js.executeScript("arguments[0].click()",book);
 	
+	//
+	
 
 }
 }
